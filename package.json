@@ -1,0 +1,25 @@
+{
+  "name": "inspire-tree-inferno-demo",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-inferno": "1.2.0-beta12",
+    "babel-preset-es2015": "^6.18.0",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "inferno": "beta23",
+    "inferno-component": "beta23",
+    "inspire-tree": "^1.10.6",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "build": "webpack -p && cp src/*.png ./dist"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
